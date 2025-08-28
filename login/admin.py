@@ -1,3 +1,4 @@
 from django.contrib import admin
+from login.models import Credencial
 
-# Register your models here.
+admin.site.register(Credencial)
